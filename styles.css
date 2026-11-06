@@ -45,3 +45,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 08: Add depth to the hero mountains. */
 .hero-art .mountain-back{filter:blur(1px);opacity:.68}
+
+/* Polish 09: Smooth fern silhouettes. */
+.fern i{transition:transform .5s ease}.fern:hover i:nth-child(odd){transform:rotate(-20deg) translateX(3px)}
