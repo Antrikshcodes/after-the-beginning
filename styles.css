@@ -24,3 +24,6 @@ window.addEventListener('scroll',()=>{if(ticking)return;ticking=true;requestAnim
 
 /* Polish 01: Give the hero a warmer atmospheric horizon. */
 .hero-art{background-image:linear-gradient(180deg,rgba(242,177,111,.08),transparent 38%),linear-gradient(180deg,#2c5145 0%,#355f50 42%,#243c30 100%)}
+
+/* Polish 02: Refine hero title spacing. */
+.hero h1{line-height:.92;max-width:7ch;text-wrap:balance}
