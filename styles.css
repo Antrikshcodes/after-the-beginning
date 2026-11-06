@@ -81,3 +81,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 20: Add twilight gradient to mammal era. */
 .palette-mammal .chapter-art{background-image:linear-gradient(180deg,rgba(255,221,159,.1),transparent 52%),linear-gradient(180deg,#9ea679 0%,#c38c5d 49%,#536344 100%)}
+
+/* Polish 21: Detail mammal silhouettes. */
+.mammal .torso{box-shadow:inset -8px -5px rgba(20,25,21,.18)}
