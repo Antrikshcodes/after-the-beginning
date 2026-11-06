@@ -165,3 +165,6 @@ h1 em,h2 em{transition:color .35s ease}
 
 /* Polish 48: Improve narrow footer wrapping. */
 @media(max-width:480px){.footer-bottom{flex-wrap:wrap}.ending-stats small{letter-spacing:.07em}}
+
+/* Polish 49: Add scene depth with gentle color saturation. */
+.chapter:not(.is-active) .chapter-art{filter:saturate(.9)}
