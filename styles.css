@@ -69,3 +69,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 16: Refine predator silhouette. */
 .rex .body{box-shadow:inset -9px -7px rgba(53,29,22,.18)}
+
+/* Polish 17: Strengthen extinction scene focal glow. */
+.impact-glow{background:radial-gradient(circle,#f1a04f 0%,#d94d32 42%,rgba(217,77,50,0) 72%)}
