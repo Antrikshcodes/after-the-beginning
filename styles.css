@@ -72,3 +72,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 17: Strengthen extinction scene focal glow. */
 .impact-glow{background:radial-gradient(circle,#f1a04f 0%,#d94d32 42%,rgba(217,77,50,0) 72%)}
+
+/* Polish 18: Make impact debris glow. */
+.debris{filter:drop-shadow(0 0 8px rgba(255,158,79,.75))}
