@@ -33,3 +33,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 04: Make navigation links visibly interactive. */
 .skip-link{transition:color .2s ease}.skip-link:hover{color:#e9b17a}
+
+/* Polish 05: Add keyboard focus visibility. */
+:focus-visible{outline:2px solid #f2b56f;outline-offset:5px;border-radius:3px}
