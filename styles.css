@@ -168,3 +168,6 @@ h1 em,h2 em{transition:color .35s ease}
 
 /* Polish 49: Add scene depth with gentle color saturation. */
 .chapter:not(.is-active) .chapter-art{filter:saturate(.9)}
+
+/* Polish 50: Set selection color to match palette. */
+::selection{background:#e9a560;color:#17221b}
