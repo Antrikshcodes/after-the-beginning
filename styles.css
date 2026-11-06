@@ -21,3 +21,6 @@ const heroObserver=new IntersectionObserver(([entry])=>{if(entry.isIntersecting)
 const parallaxItems=document.querySelectorAll('.art .layer,.art .sun,.art .chapter-sun,.art .dino,.art .mammal,.art .hominin,.art .human');
 let ticking=false;
 window.addEventListener('scroll',()=>{if(ticking)return;ticking=true;requestAnimationFrame(()=>{const vh=innerHeight;parallaxItems.forEach(el=>{const scene=el.closest('.scene');if(!scene)return;const rect=scene.getBoundingClientRect();if(rect.bottom<0||rect.top>vh) return;const amount=(vh/2-(rect.top+rect.height/2))/vh;const depth=el.classList.contains('layer')?16:8;el.style.setProperty('--parallax',`${amount*depth}px`);el.style.translate=`0 var(--parallax)`});ticking=false})},{passive:true});
+
+/* Polish 01: Give the hero a warmer atmospheric horizon. */
+.hero-art{background-image:linear-gradient(180deg,rgba(242,177,111,.08),transparent 38%),linear-gradient(180deg,#2c5145 0%,#355f50 42%,#243c30 100%)}
