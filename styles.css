@@ -75,3 +75,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 18: Make impact debris glow. */
 .debris{filter:drop-shadow(0 0 8px rgba(255,158,79,.75))}
+
+/* Polish 19: Tint extinction smoke for depth. */
+.smoke-b{background:#684139;opacity:.52}
