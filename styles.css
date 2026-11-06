@@ -105,3 +105,6 @@ h1,h2{text-wrap:balance}
 
 /* Polish 28: Refine timeline progress color. */
 .timeline-fill{background:linear-gradient(180deg,#f5c27d,#d9854d);box-shadow:0 0 8px rgba(232,165,96,.3)}
+
+/* Polish 29: Improve timeline labels. */
+.timeline-label{line-height:1.4}
