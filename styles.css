@@ -132,3 +132,6 @@ h1,h2{text-wrap:balance}
 
 /* Polish 37: Give return link an underline cue. */
 .back-top{display:inline-flex;align-items:center;gap:12px;width:max-content;border-bottom:1px solid rgba(233,177,122,.45);padding-bottom:7px}
+
+/* Polish 38: Keep progress rail above artwork. */
+.timeline{isolation:isolate}
