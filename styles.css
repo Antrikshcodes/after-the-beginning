@@ -162,3 +162,6 @@ h1 em,h2 em{transition:color .35s ease}
 
 /* Polish 47: Make ending footer breathe. */
 .footer-bottom{gap:20px;line-height:1.6}
+
+/* Polish 48: Improve narrow footer wrapping. */
+@media(max-width:480px){.footer-bottom{flex-wrap:wrap}.ending-stats small{letter-spacing:.07em}}
