@@ -42,3 +42,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 07: Enrich the hero sunlight. */
 .hero-art .sun{background:radial-gradient(circle at 42% 40%,#f4d6a0,#d9a868 72%);box-shadow:0 0 90px 24px rgba(231,185,117,.2)}
+
+/* Polish 08: Add depth to the hero mountains. */
+.hero-art .mountain-back{filter:blur(1px);opacity:.68}
