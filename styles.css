@@ -141,3 +141,6 @@ h1,h2{text-wrap:balance}
 
 /* Polish 40: Reduce motion in parallax transforms. */
 @media(prefers-reduced-motion:reduce){.art .layer,.art .sun,.art .chapter-sun,.art .dino,.art .mammal,.art .hominin,.art .human{translate:none!important}}
+
+/* Polish 41: Stop decorative grain from catching input. */
+.grain{contain:strict}
