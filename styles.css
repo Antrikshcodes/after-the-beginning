@@ -54,3 +54,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 11: Improve chapter copy measure. */
 .chapter-text{max-width:36ch;text-wrap:pretty}
+
+/* Polish 12: Emphasize chapter fact dates. */
+.fact>span{font-weight:500;color:#f2c38c}
