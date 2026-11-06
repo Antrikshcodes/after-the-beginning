@@ -57,3 +57,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 12: Emphasize chapter fact dates. */
 .fact>span{font-weight:500;color:#f2c38c}
+
+/* Polish 13: Polish chapter number markers. */
+.chapter-no{font-size:clamp(20px,2vw,28px);letter-spacing:.04em}
