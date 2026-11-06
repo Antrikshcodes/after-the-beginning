@@ -63,3 +63,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 14: Add soft highlights to dinosaur scene. */
 .palette-dino .chapter-art{background-image:radial-gradient(ellipse at 72% 18%,rgba(255,210,140,.2),transparent 35%),linear-gradient(180deg,#d18a52 0%,#a65c37 46%,#493c2c 100%)}
+
+/* Polish 15: Give sauropod a subtle shaded form. */
+.brachio .body{box-shadow:inset -18px -8px rgba(16,30,22,.2),inset 8px 4px rgba(221,180,113,.08)}
