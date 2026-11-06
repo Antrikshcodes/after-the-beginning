@@ -90,3 +90,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 23: Warm the savanna atmosphere. */
 .palette-hominin .chapter-art{background-image:radial-gradient(ellipse at 72% 24%,rgba(255,220,147,.22),transparent 35%),linear-gradient(180deg,#d4a66b,#bf8052 52%,#755336)}
+
+/* Polish 24: Add subtle texture to savanna ground. */
+.palette-hominin .chapter-ground{background-image:linear-gradient(175deg,transparent 0 35%,rgba(212,157,91,.08) 36% 38%,transparent 39%),linear-gradient(90deg,#755132,#85603d)}
