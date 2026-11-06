@@ -27,3 +27,6 @@ window.addEventListener('scroll',()=>{if(ticking)return;ticking=true;requestAnim
 
 /* Polish 02: Refine hero title spacing. */
 .hero h1{line-height:.92;max-width:7ch;text-wrap:balance}
+
+/* Polish 03: Improve body text rendering. */
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
