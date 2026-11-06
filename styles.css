@@ -147,3 +147,6 @@ h1,h2{text-wrap:balance}
 
 /* Polish 42: Improve fixed timeline contrast. */
 .timeline-line{box-shadow:0 0 0 4px rgba(17,25,21,.12)}
+
+/* Polish 43: Refine hero note legibility. */
+.hero-note{text-shadow:0 1px 8px rgba(0,0,0,.35)}
