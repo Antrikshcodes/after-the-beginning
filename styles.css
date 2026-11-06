@@ -93,3 +93,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 24: Add subtle texture to savanna ground. */
 .palette-hominin .chapter-ground{background-image:linear-gradient(175deg,transparent 0 35%,rgba(212,157,91,.08) 36% 38%,transparent 39%),linear-gradient(90deg,#755132,#85603d)}
+
+/* Polish 25: Refine human era sky. */
+.palette-human .chapter-art{background-image:radial-gradient(ellipse at 58% 32%,rgba(255,218,166,.28),transparent 32%),linear-gradient(180deg,#7695a0,#d2a275 56%,#36454b)}
