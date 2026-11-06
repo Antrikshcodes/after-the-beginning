@@ -159,3 +159,6 @@ h1 em,h2 em{transition:color .35s ease}
 
 /* Polish 46: Give interactive timeline points hover states. */
 .tick:hover{background:#e9b17a;box-shadow:0 0 10px rgba(233,177,122,.6);transform:scale(1.35)}
+
+/* Polish 47: Make ending footer breathe. */
+.footer-bottom{gap:20px;line-height:1.6}
