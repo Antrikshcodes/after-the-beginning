@@ -66,3 +66,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 15: Give sauropod a subtle shaded form. */
 .brachio .body{box-shadow:inset -18px -8px rgba(16,30,22,.2),inset 8px 4px rgba(221,180,113,.08)}
+
+/* Polish 16: Refine predator silhouette. */
+.rex .body{box-shadow:inset -9px -7px rgba(53,29,22,.18)}
