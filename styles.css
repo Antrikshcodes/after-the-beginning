@@ -117,3 +117,6 @@ h1,h2{text-wrap:balance}
 
 /* Polish 32: Scale mobile fact labels cleanly. */
 @media(max-width:700px){.fact>span{font-size:8px}.fact i{font-size:7px}}
+
+/* Polish 33: Protect small screens from oversized artwork. */
+@media(max-width:700px){.chapter-art{min-height:100%}.chapter-no{font-size:18px}}
