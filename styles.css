@@ -84,3 +84,6 @@ body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 
 /* Polish 21: Detail mammal silhouettes. */
 .mammal .torso{box-shadow:inset -8px -5px rgba(20,25,21,.18)}
+
+/* Polish 22: Add a soft glow to early flowers. */
+.flower{box-shadow:0 0 0 3px rgba(249,211,121,.2),0 0 15px rgba(249,211,121,.3)}
